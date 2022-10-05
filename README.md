@@ -2,7 +2,7 @@
 Writer: Amos Langat
 
 ## Live link
-
+https://langatamos.github.io/recipe-app/
 
 ## Table of Content
 1. Description
