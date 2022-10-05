@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Recipe Search App
+Writer: Amos Langat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live link
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Content
+1. Description
+2. Installation i. Requirements ii. Procedure
+3. Technology Used
+4. MIT License
+5. About the Author
 
-### `npm start`
+## 1. Description
+Recipe Search web App aims to make cooking interesting, enjoyable, easy and very convenient by providing best information on the best rated recipes enlisting ingredients and well explained cooking procedures as well as their nutritional value for a wide range of dishes. designed for specialized in marketting real estate property. It offers dedicated features for real estate to users, that will make it easy to display property to potential clients, help the businesses to achieve their business goals while at the same time ensuring safety of client’s information, protection from cyber breach by using secure data transfer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Installation
+This is a web application that youcan be run from a browser. It can be install it locally on PC.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to install
+(i). Requirements -It is compatible with the following devices: computer, tablts smartphone, and iPads. -Access to the Internet
 
-### `npm test`
+(ii). Procedure This application can be installed on Windows, Linux and MacOS. Saved to the local folder, open with a suitable browser, or using terminal command. Launch it directly. (tutorial on Steps to follow when launching available).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 3. Tools and Resources  Used
+These are tools and tehnologies used to design the basic structure of the app. CSS styling was employed.
+1. JavaScript
+2. ReactJS
+3. CSS
+4. Local API (db.json)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 4. MIT License
+Copyright (c) 2022 altani
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### `npm run eject`
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 5. About the Author
+Follow the Author on twitter, facebook and instagram. Feedback and Reviews are appreciated. Rate Us!. Phone: +254 x 142 xxx; email:altorecipes@gmail.com
