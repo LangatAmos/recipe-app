@@ -18,7 +18,10 @@ Recipe Search web App aims to make cooking interesting, enjoyable, easy and very
 This is a web application that youcan be run from a browser. It can be install it locally on PC.
 
 How to install
-(i). Requirements -It is compatible with the following devices: computer, tablts smartphone, and iPads. -Access to the Internet
+(i). Requirements -It is compatible with the following devices: computer, tablets, and iPads. -Access to the Internet
+    -run `npm install` to install all dependencies
+    -run `npm run server` to open backend server
+    -run `npm start` to launch the application
 
 (ii). Procedure This application can be installed on Windows, Linux and MacOS. Saved to the local folder, open with a suitable browser, or using terminal command. Launch it directly. (tutorial on Steps to follow when launching available).
 
