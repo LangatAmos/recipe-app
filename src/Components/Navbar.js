@@ -15,10 +15,16 @@ function Navbar() {
     return (
         <div className="navbar navbar-inverse navbar-fixed-top">
             <h1 className="navbar-title">Recipe Search App</h1>
+            <button type="button" className="btn btn-signup">
+                    <NavLink to='/recipe-list'
+                        style={({ isActive }) =>
+                        isActive ? activeStyle : undefined }>
+                        Home
+                    </NavLink></button>
             <div className='navbar-button'>
             {/* <Link to={"/recipe-details"}>Recipe List</Link> */}
                 <button type="button" className="btn btn-signup">
-                    <NavLink to='./RecipeDetails'
+                    <NavLink to="/recipedetails"
                         style={({ isActive }) =>
                         isActive ? activeStyle : undefined }>
                         Recipe Details

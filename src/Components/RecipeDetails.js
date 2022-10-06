@@ -16,16 +16,16 @@ function RecipeList({handleClick}) {
 
 
 return (
-<React.Fragment>
+<div id="recipedetails">
 <h1 className="pageTitle">EXPLORE RECIPES YOU WILL LIKE</h1>
-    <div className="ui-details">
+    <div  className="ui-details">
         <div className="ui_text-wrap">
                 {recipeDetails.map((recipe, id) => {
             return (<Recipe key={id}{...recipe} handleClick={handleClick}></Recipe>);
             })}
         </div>
     </div>
-</React.Fragment>
+</div>
 );
 }
 

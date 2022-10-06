@@ -156,3 +156,6 @@
 .pageTitle{
   font-family: 'Audiowide', cursive;
 }
+.ui-card{
+  cursor: pointer;
+}

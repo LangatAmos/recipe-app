@@ -7,14 +7,18 @@ import Footer from './Footer';
 import RecipeDetails from './RecipeDetails';
 
 
-function App({handleSearch}){
+function App({handleSearch, recipes}){
   const [recipeDetails, setRecipeDetails] = useState([])
 
   function handleClick (){
     fetch(`http://localhost:3000/recipes/1`)
         .then((res) => res.json())
-        //.then((recipeDetails) => console.log(recipeDetails))
+        .then((recipeDetails) => console.log(recipeDetails))
         .then((recipeDetails) => setRecipeDetails(recipeDetails))
+  }
+  function handleSubmit(e){
+    e.preventDefault()
+    console.log(recipeDetails.id)
   }
 
   function handleSearch(searchTerm){
@@ -36,13 +40,13 @@ function App({handleSearch}){
   return (
     <div className="App">
       <Navbar/>
-      <Search handleSearch={handleSearch}/>
+      <Search handleSearch={handleSearch} handleSubmit={handleSubmit}/>
       <Routes>
-          <Route path='/' element={<RecipeList handleClick={handleClick}/>}/>
-          <Route path="/" element={<RecipeDetails />}/>
+          <Route exact path="/recipe-list" element={<RecipeList handleClick={handleClick}/>}/>
+          <Route exact path="/recipedetails" element={<RecipeDetails />}/>
       </Routes>
       {/* <RecipeList handleClick={handleClick}/> */}
-      
+      {/* <RecipeDetails /> */}
       <Footer></Footer>
     </div>
   )

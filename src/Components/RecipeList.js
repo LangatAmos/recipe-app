@@ -16,16 +16,11 @@ function RecipeList({handleClick}) {
 
 
 return (
-<React.Fragment>
-    <div id="recipe-details" className="card">
-    {recipes.map((recipe, id) => {
+    <div id="recipe-list" className="card">
+        {recipes.map((recipe, id) => {
         return (<RecipeItem key={id}{...recipe} handleClick={handleClick}></RecipeItem>);
         })}
     </div>
-    <div>
-        <button>Add Recipe</button>
-    </div>
-</React.Fragment>
 );
 }
 
