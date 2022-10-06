@@ -30,17 +30,17 @@ function Navbar() {
                         Recipe Details
                     </NavLink></button>
                 <button type="button" className="btn btn-signup">
-                    <NavLink to="login"
+                    <NavLink to="/signin-form"
                         className={({ isActive }) =>
-                        isActive ? activeClassName : undefined}>Log in
+                        isActive ? activeClassName : undefined}>Log in/Sign Up
                     </NavLink>
                 </button>
-                <button type="button" className="btn btn-login">
+                {/* <button type="button" className="btn btn-login">
                     <NavLink to="signup"
                         className={({ isActive }) =>
-                        isActive ? activeClassName : undefined}>Sign Up
+                        isActive ? activeClassName : undefined}>
                     </NavLink>
-                </button>
+                </button> */}
             </div>
             
         </div>

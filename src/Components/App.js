@@ -5,6 +5,7 @@ import Search from './Search';
 import RecipeList from './RecipeList';
 import Footer from './Footer';
 import RecipeDetails from './RecipeDetails';
+import SignIn from './SignIn';
 
 
 function App({handleSearch, recipes}){
@@ -42,8 +43,11 @@ function App({handleSearch, recipes}){
       <Navbar/>
       <Search handleSearch={handleSearch} handleSubmit={handleSubmit}/>
       <Routes>
-          <Route exact path="/recipe-list" element={<RecipeList handleClick={handleClick}/>}/>
+          <Route exact path="/recipe-list" element={<RecipeList handleClick={handleClick}
+          
+          />}/>
           <Route exact path="/recipedetails" element={<RecipeDetails />}/>
+          <Route exact path="signin-form" element={<SignIn/>}/>
       </Routes>
       {/* <RecipeList handleClick={handleClick}/> */}
       {/* <RecipeDetails /> */}
