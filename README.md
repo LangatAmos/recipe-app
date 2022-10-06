@@ -2,7 +2,9 @@
 Writer: Amos Langat
 
 ## Live link
-https://langatamos.github.io/recipe-app/
+GitHub link: https://langatamos.github.io/recipe-app/
+
+Heroku link: https://recipe-search-web-ap.herokuapp.com/recipe-list
 
 ## Table of Content
 1. Description
