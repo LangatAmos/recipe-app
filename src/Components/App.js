@@ -10,6 +10,10 @@ import SignIn from './SignIn';
 
 function App({handleSearch, recipes}){
   const [recipeDetails, setRecipeDetails] = useState([])
+  const [formData, setFormData] = useState({
+    email: '',
+    password: ''
+  })
 
   function handleClick (){
     fetch(`http://localhost:3000/recipes/1`)
@@ -37,6 +41,11 @@ function App({handleSearch, recipes}){
 			setRecipeDetails();
 		}
 	};
+
+  function handleSubmitUserInfo(e){
+    e.preventDefault();
+    console.log(formData);
+  }
   
   return (
     <div className="App">
@@ -47,7 +56,7 @@ function App({handleSearch, recipes}){
           
           />}/>
           <Route exact path="/recipedetails" element={<RecipeDetails />}/>
-          <Route exact path="signin-form" element={<SignIn/>}/>
+          <Route exact path="signin-form" element={<SignIn handleSubmitUserInfo={handleSubmitUserInfo}/>}/>
       </Routes>
       {/* <RecipeList handleClick={handleClick}/> */}
       {/* <RecipeDetails /> */}

@@ -1,19 +1,27 @@
 import React from 'react';
 
-function SignIn(){
+function SignIn({handleSubmitUserInfo, handleChange}){
+
+    function handleChange(e){
+        console.log(e);
+    }
+
+
     return (
         <div id= "signin-form">
             <h3>Log in or register here</h3>
-        <form>
+        <form onSubmit = {handleSubmitUserInfo}>
     {/* <!-- Email input --> */}
         <div className="form-outline mb-4">
-        <input placeholder='Enter email address here' type="email" id="form2Example1" className="form-control" />
+        <input onChange={(e) => handleChange(e.target.value)}
+            placeholder='Enter email address here' type="email" id="form2Example1" className="form-control"  />
         <label  className="form-label">Email</label>
     </div>
 
     {/* <!-- Password input --> */}
     <div className="form-outline mb-4">
-        <input placeholder='Enter password' type="password" id="form2Example2" className="form-control" />
+        <input onChange={(e) => handleChange(e.target.value)}
+        placeholder='Enter password' type="password" id="form2Example2" className="form-control" />
         <label className="form-label">Password</label>
     </div>
 
@@ -34,7 +42,7 @@ function SignIn(){
     </div>
 
   {/* <!-- Submit button --> */}
-    <button type="button" className="btn btn-primary btn-block mb-4">Sign in</button>
+    <button type="submit" className="btn btn-primary btn-block mb-4">Sign in</button>
 
     {/* <!-- Register buttons --> */}
     <div className="text-center">
