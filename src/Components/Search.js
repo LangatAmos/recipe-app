@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 
-function Search({handleSearch}) {
+function Search({handleSearch, handleSubmit}) {
   return (
-    <form className="Search">
+    <form onSubmit={handleSubmit} className="Search">
       <div className="form-row">
         <div className="col-7">
           <input
