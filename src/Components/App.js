@@ -25,22 +25,6 @@ function App({handleSearch, recipes}){
     console.log(recipeDetails.id)
   }
 
-  function handleSearch(searchTerm){
-    console.log(searchTerm)
-		if (searchTerm) {
-			const filteredRecipes = recipeDetails.filter((recipe) => {
-				if (recipe.name.toLowerCase().match(searchTerm.toLowerCase())) {
-					return true;
-				} else {
-					return false;
-				}
-			});
-			setRecipeDetails(filteredRecipes);
-		} else {
-			setRecipeDetails();
-		}
-	};
-
   function handleSubmitUserInfo(e){
     e.preventDefault();
     console.log(formData);
