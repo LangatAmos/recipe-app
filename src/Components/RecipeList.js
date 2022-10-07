@@ -29,12 +29,13 @@ function RecipeList({handleSubmit,handleSearch, handleClick}) {
                 console.log(filteredRecipes)
                 setRecipes(filteredRecipes);
             } else {
-                setRecipes(recipes)
+                setfilteredRecipes(filteredRecipes)
             }
         };
 
-        function handleSubmit(){
-            console.log(filteredRecipes);
+        function handleSubmit(e){
+            e.preventDefault();
+            setRecipes(recipes);
         }
 
 return (
