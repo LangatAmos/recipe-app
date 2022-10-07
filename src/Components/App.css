@@ -75,14 +75,15 @@
   word-wrap: break-word;
 }
 .card{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-flow: wrap;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   height: auto;
   padding: 2rem;
 }
 .food_text-wrap{
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 400px;
   justify-content: center;
   align-items: center;
   margin: 2rem 2rem;
