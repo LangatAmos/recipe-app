@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { Routes, Route } from "react-router-dom";
 import Navbar from './Navbar';
-import Search from './Search';
 import RecipeList from './RecipeList';
 import Footer from './Footer';
 import RecipeDetails from './RecipeDetails';
@@ -50,11 +49,9 @@ function App({handleSearch, recipes}){
   return (
     <div className="App">
       <Navbar/>
-      <Search handleSearch={handleSearch} handleSubmit={handleSubmit}/>
+      {/* <Search handleSearch={handleSearch} handleSubmit={handleSubmit}/> */}
       <Routes>
-          <Route exact path="/recipe-list" element={<RecipeList handleClick={handleClick}
-          
-          />}/>
+          <Route exact path="/recipe-list" element={<RecipeList handleClick={handleClick}/>}/>
           <Route exact path="/recipedetails" element={<RecipeDetails />}/>
           <Route exact path="signin-form" element={<SignIn handleSubmitUserInfo={handleSubmitUserInfo}/>}/>
       </Routes>
